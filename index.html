@@ -1,143 +1,270 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <h2>About MH Furniture</h2>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MH Furniture</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f7f2eb;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#5b3a29;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+header img{
+width:120px;
+margin-bottom:10px;
+}
+
+nav{
+background:#7a523b;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:30px 20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.grid img{
+width:100%;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 18px;
+text-decoration:none;
+border-radius:6px;
+margin-top:10px;
+}
+
+.footer{
+background:#5b3a29;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.call{
+position:fixed;
+bottom:80px;
+right:20px;
+background:#0A84FF;
+color:white;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png" alt="Logo">
+
+<h1>MH Furniture</h1>
+
+<p>Complete Interior Furniture & Woodwork Solutions</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#reviews">Reviews</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<div class="card">
+
+<h2>About MH Furniture</h2>
 
 <p>
-We provide complete interior furniture and woodwork services for homes, offices and commercial spaces. We specialize in modular kitchens, wardrobes, beds, TV units, wooden doors, office furniture and customized furniture with premium quality finishing.
+We provide complete interior furniture and woodwork services for homes, offices and commercial spaces.
+We specialize in Modular Kitchen, Wardrobes, Beds, TV Units, Wooden Doors, Office Furniture and Custom Furniture with premium quality finishing.
 </p>
-  <h2>Customer Reviews</h2>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">Modular Kitchen</div>
+
+<div class="card">Wardrobe</div>
+
+<div class="card">TV Unit</div>
+
+<div class="card">Bed</div>
+
+<div class="card">Wooden Door</div>
+
+<div class="card">Office Furniture</div>
+
+<div class="card">Custom Furniture</div>
+
+<div class="card">Interior Woodwork</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Our Work Gallery</h2>
+
+<div class="grid">
+
+<img src="kitchen.jpg" alt="Kitchen">
+
+<img src="bed.jpg" alt="Bed">
+
+<img src="wardrobe.jpg" alt="Wardrobe">
+
+<img src="door.jpg" alt="Door">
+
+<img src="tvunit.jpg" alt="TV Unit">
+
+</div>
+
+</section>
+
+<section id="reviews">
+
+<div class="card">
+
+<h2>Customer Reviews</h2>
 
 <p>⭐⭐⭐⭐⭐ Excellent quality and finishing.</p>
 
 <p>⭐⭐⭐⭐⭐ Best furniture work at affordable price.</p>
 
 <p>⭐⭐⭐⭐⭐ Professional team and on-time delivery.</p>
-  <h2>Our Services</h2>
 
-<ul>
+</div>
 
-<li>Modular Kitchen</li>
+</section>
 
-<li>Wardrobe</li>
+<section id="contact">
 
-<li>TV Unit</li>
+<div class="card">
 
-<li>Bed</li>
-
-<li>Wooden Door</li>
-
-<li>Office Furniture</li>
-
-<li>Custom Furniture</li>
-
-<li>Interior Woodwork</li>
-
-</ul>
-  <h2>Contact Us</h2>
+<h2>Contact Us</h2>
 
 <p>📞 Phone : 8169109441</p>
 
 <p>📱 WhatsApp : 8169109441</p>
 
 <p>🏠 MH Furniture</p>
-  <h2>Location</h2>
+
+<a class="btn" href="https://wa.me/918169109441" target="_blank">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="card">
+
+<h2>Location</h2>
 
 <iframe
-src="YAHAN_GOOGLE_MAP_EMBED_LINK_DALNA_HAI"
+src="YAHAN_APNA_GOOGLE_MAP_EMBED_LINK_DALEN"
 width="100%"
 height="350"
 style="border:0;"
-allowfullscreen=""
+allowfullscreen
 loading="lazy">
 </iframe>
-  
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MH Furniture</title>
-<style>
-body{font-family:Arial,sans-serif;margin:0;background:#f7f2eb;color:#333}
-header{background:#5b3a29;color:#fff;padding:40px 20px;text-align:center}
-nav{background:#7a523b;padding:10px;text-align:center}
-nav a{color:#fff;text-decoration:none;margin:0 15px;font-weight:bold}
-section{max-width:1000px;margin:auto;padding:30px 20px}
-.card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
-.footer{background:#5b3a29;color:#fff;text-align:center;padding:20px}
-.btn{display:inline-block;background:#25D366;color:#fff;padding:12px 18px;border-radius:6px;text-decoration:none}
-</style>
-</head>
-  <h2 style="text-align:center;">Our Work Gallery</h2>
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px;padding:20px;">
-
-<img src="kitchen.jpg" style="width:100%;border-radius:10px;">
-<img src="bed.jpg" style="width:100%;border-radius:10px;">
-<img src="wardrobe.jpg" style="width:100%;border-radius:10px;">
-<img src="door.jpg" style="width:100%;border-radius:10px;">
-<img src="tvunit.jpg" style="width:100%;border-radius:10px;">
 
 </div>
-<body>
 
-<div style="position:fixed;bottom:20px;right:20px;z-index:9999;">
-...
-</div>
-
-<div style="position:fixed;bottom:80px;right:20px;z-index:9999;">
-...
-</div>
-
-<header>
-  <img src="logo.png" alt="MH Furniture Logo" width="120">
-<h1>MH Furniture</h1>
-<header>
-<h1>MH Furniture</h1>
-<p>Complete Interior Furniture & Woodwork Solutions</p>
-</header>
-<div style="position:fixed;bottom:20px;right:20px;z-index:9999;">
-<a href="https://wa.me/918169109441" target="_blank" style="background:#25D366;color:white;padding:15px 18px;text-decoration:none;border-radius:50px;font-weight:bold;">💬 WhatsApp</a>
-</div>
-
-<div style="position:fixed;bottom:80px;right:20px;z-index:9999;">
-<a href="tel:8169109441" style="background:#0A84FF;color:white;padding:15px 18px;text-decoration:none;border-radius:50px;font-weight:bold;">📞 Call Now</a>
-</div>
-<nav>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-<div class="card">
-<h2>About Us</h2>
-<p>We provide complete interior furniture and woodwork services for homes, offices, shops and commercial spaces. We manufacture and install modular kitchens, wardrobes, beds, TV units, cabinets, office furniture and custom wooden furniture. We also sell and install new wooden doors.</p>
-</div>
 </section>
 
-<section id="services">
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card">Modular Kitchen</div>
-<div class="card">Wardrobes</div>
-<div class="card">Beds & TV Units</div>
-<div class="card">Office Furniture</div>
-<div class="card">Custom Wooden Furniture</div>
-<div class="card">New Wooden Doors</div>
-</div>
-</section>
+<a class="whatsapp" href="https://wa.me/918169109441">💬 WhatsApp</a>
 
-<section id="contact">
-<div class="card">
-<h2>Contact</h2>
-<p><b>Phone / WhatsApp:</b> 8169109441</p>
-<p><a class="btn" href="https://wa.me/918169109441">Chat on WhatsApp</a></p>
-</div>
-</section>
+<a class="call" href="tel:8169109441">📞 Call</a>
 
 <div class="footer">
+
 © 2026 MH Furniture. All Rights Reserved.
+
 </div>
+
 </body>
 </html>
